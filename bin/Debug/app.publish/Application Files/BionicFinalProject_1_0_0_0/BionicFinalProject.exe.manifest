@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BionicFinalProject.exe" version="1.0.0.0" publicKeyToken="1a59dd04ae9a50b6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BionicFinalProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BionicFinalProject.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BionicFinalProject.exe" size="2307072">
+      <assemblyIdentity name="BionicFinalProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/VeyQawoz0GYEfuAP6AsPVOWQ4nZ1wmAO8syOuuZR8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\BionicFinalProject.resources.dll" size="4096">
+      <assemblyIdentity name="BionicFinalProject.resources" version="1.0.0.0" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>P7tnHi3RySOX2GkvEViHvR6BGrs+2ew0N+JM7f5YPCg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\BionicFinalProject.resources.dll" size="4096">
+      <assemblyIdentity name="BionicFinalProject.resources" version="1.0.0.0" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZC/6s+ZeFN3I+n7fDEDqE5yoMqj7ijJ8eLjbv2RH+wM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\BionicFinalProject.resources.dll" size="4608">
+      <assemblyIdentity name="BionicFinalProject.resources" version="1.0.0.0" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7Fi0VlDluD+AFkpHOzhnE1uLHwqtti6V9EOo9vxHznU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BionicFinalProject.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Sirius-note\Sirius" issuerKeyHash="4fa035b7d13062b582161f2e5369022bb8f26a10" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ACjP5LbbRRksBxp6rzzf7YCChWAandV17UMQk599ciw=</DigestValue></Reference></SignedInfo><SignatureValue>eRNR0n2X/f5574AMydcWQ55dLWOdvPnNQADaTOhFj3GHxAl2u+OqBj3SNFhkQl8SweBQ9XJS1AdZmjZ+bX6F7L6tcY6rzL8cVzJhSmHDY/Sj+euQeJNdpLwrp8ee+hJvmesD1eVD1Bnwnn4kiCs7Qxvn0hYo1Pti/O84BVacQHc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0+dRgoSnYl7frwcIB+UyfhubfnDIsAJXdlf3IrJvfo4VRZL4wWKKmEiq33K3413WVeR32XlYM90gshSuccdnzlOVX22b/vRzk+K1Ivu35Sw8BBr9pCL1fJozNp3Gi8wNni4FuUpHqNHZRlVq08o6HfY8wczMevWmgXYIYc/g7w0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2c727d9f931043ed75d59d1a60858280eddf3caf7a1a072c1945dbb6e4cf2800" Description="" Url=""><as:assemblyIdentity name="BionicFinalProject.exe" version="1.0.0.0" publicKeyToken="1a59dd04ae9a50b6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Sirius-note\Sirius</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/jFjc05IrIRq/oFJqNsURUyRduBFFSiYoanUAqXVZxQ=</DigestValue></Reference></SignedInfo><SignatureValue>zkoTHAwPwjqlf0KPwq9JeD5pbd7IUkwwfYWC0dI5QHGEIEXc9qZ2I8WjSpsEbsy9LsejBPHyrQ7r8ribOLA1PxnVO1FTmT8gcWfQZ3HkfJLy3gKR3hc7iX1tykDfYqDtU2NaZv3UoaGXyN/bFs8vFxfx0wRovcEU8jnh+7CoIVg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0+dRgoSnYl7frwcIB+UyfhubfnDIsAJXdlf3IrJvfo4VRZL4wWKKmEiq33K3413WVeR32XlYM90gshSuccdnzlOVX22b/vRzk+K1Ivu35Sw8BBr9pCL1fJozNp3Gi8wNni4FuUpHqNHZRlVq08o6HfY8wczMevWmgXYIYc/g7w0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQP5ivlZ5TJrdO193vYHIMmjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAUwBpAHIAaQB1AHMALQBuAG8AdABlAFwAUwBpAHIAaQB1AHMwHhcNMTQxMjExMjAwNTI0WhcNMTUxMjEyMDIwNTI0WjAvMS0wKwYDVQQDHiQAUwBpAHIAaQB1AHMALQBuAG8AdABlAFwAUwBpAHIAaQB1AHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANPnUYKEp2Je368HCAflMn4bm35wyLACV3ZX9yKyb36OFUWS+MFiiphIqt9yt+Nd1lXkd9l5WDPdILIUrnHHZ85TlV9tm/70c5PitSL7t+UsPAQa/aQi9XyaMzadxovMDZ4uBblKR6jR2UZVatPKOh32PMHMzHr1poF2CGHP4O8NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPpTysNlB0waxOBQDz7Gw49TNTo0UdugRMilYrDEu5qFQ8eLieP84s/pT1DU3oQ+AJij66XGOpSW7QHCE5NCHaBckMtNm5tANRkHrF/t+sPDd6ugJkaN5fR7dZplG8qIjjL6L19BT1M8QY5EdOMyAy/mcYf8LCYXcETmJdG2uKzY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

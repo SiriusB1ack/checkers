@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="BionicFinalProject.View.Options"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="620" d:DesignWidth="720">
+    <Grid  Name="grid3" Background="#FFCDB9B6">
+        <Menu HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="710">
+            <MenuItem Header="{Binding LocalizData.GameMenu, Mode=TwoWay}" >
+                <MenuItem Header="{Binding LocalizData.Quit, Mode=TwoWay}" Command="{Binding Exit}"/>
+            </MenuItem>
+        </Menu>
+        <StackPanel HorizontalAlignment="Left" Height="105" Margin="200,240,0,0" VerticalAlignment="Top" Width="334">
+            <RadioButton Name="local" Content="{Binding LocalizData.LocalGame, Mode=TwoWay}" IsChecked="True" Height="30"/>
+            <RadioButton Name="net" Content="{Binding LocalizData.OnlineGame, Mode=TwoWay}" Height="30" HorizontalAlignment="Right" Width="334"/>
+            <RadioButton Name="ai" Content="{Binding LocalizData.AIGame, Mode=TwoWay}" Height="30"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="62" Margin="200,394,0,0" VerticalAlignment="Top" Width="334">
+            <RadioButton Name="white" Content="{Binding LocalizData.CheckWhite, Mode=TwoWay}" IsChecked="True" Height="30"/>
+            <RadioButton Content="{Binding LocalizData.CheckBlack, Mode=TwoWay}" Height="30"/>
+        </StackPanel>
+        <Label Content="{Binding LocalizData.CheckMode, Mode=TwoWay}" HorizontalAlignment="Left" Height="33" Margin="276,202,0,0" VerticalAlignment="Top" Width="144"/>
+        <Label Content="{Binding LocalizData.CheckYourCheckers, Mode=TwoWay}" HorizontalAlignment="Left" Height="33" Margin="264,356,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="145,438,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Visibility="Hidden"/>
+        <Label Content="{Binding LocalizData.CheckIP, Mode=TwoWay}" HorizontalAlignment="Left" Height="28" Margin="203,405,0,0" VerticalAlignment="Top" Width="202" Visibility="Hidden"/>
+        <Button Content="{Binding LocalizData.CheckStartGame, Mode=TwoWay}" HorizontalAlignment="Left" Height="34" Margin="217,503,0,0" VerticalAlignment="Top" Width="287"  Command="{Binding StartCommand}"/>
+        <TextBox Name="ip" HorizontalAlignment="Left" Height="20" Margin="371,268,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="113"/>
+        <TextBox Name="loginbox1" HorizontalAlignment="Left" Height="20" Margin="133,74,0,0" Text="{Binding LoginGame.Username, Mode=TwoWay}" VerticalAlignment="Top" Width="219"/>
+        <PasswordBox Name="passwordbox1" HorizontalAlignment="Left" Height="20" Margin="465,74,0,0"  VerticalAlignment="Top" Width="227"/>
+        <Button Content="{Binding LocalizData.LoginButton, Mode=TwoWay}" HorizontalAlignment="Left" Height="25" Margin="195,111,0,0" VerticalAlignment="Top" Width="157" Command="{Binding ClickLogin}"/>
+        <Button Content="{Binding LocalizData.RegisterButton, Mode=TwoWay}" HorizontalAlignment="Left" Height="25" Margin="371,111,0,0" VerticalAlignment="Top" Width="157" Command="{Binding ClickRegister}"/>
+        <Label Content="{Binding LocalizData.Username, Mode=TwoWay}" HorizontalAlignment="Left" Height="30" Margin="16,69,0,0" VerticalAlignment="Top" Width="112"/>
+        <Label Content="{Binding LocalizData.Password, Mode=TwoWay}" HorizontalAlignment="Left" Height="35" Margin="371,69,0,0" VerticalAlignment="Top" Width="71"/>
+        <Label Content="{Binding LocalizData.RegisterBetter, Mode=TwoWay}" HorizontalAlignment="Left" Height="28" Margin="145,36,0,0" VerticalAlignment="Top" Width="555"/>
+
+
+
+    </Grid>
+</UserControl>

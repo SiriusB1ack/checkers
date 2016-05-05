@@ -1,0 +1,12 @@
+﻿<Window x:Class="BionicFinalProject.View.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:res="clr-namespase:BionicFinalProject.Properties"
+        
+        Title="MainWindow" Height="620" Width="720" Visibility="Visible" ResizeMode="NoResize" Background="#FF47443D">
+    <Grid Name="gridMain">
+        
+    </Grid>
+    
+    
+</Window>
